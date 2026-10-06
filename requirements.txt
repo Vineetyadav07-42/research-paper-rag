@@ -1,0 +1,9 @@
+PyMuPDF
+sentence-transformers
+faiss-cpu
+transformers
+torch
+sentencepiece
+nltk
+fastapi
+uvicorn
