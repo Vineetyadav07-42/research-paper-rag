@@ -13,3 +13,6 @@ __pycache__/
 # Hugging Face / model caches
 .cache/
 huggingface/
+
+
+*.pem
