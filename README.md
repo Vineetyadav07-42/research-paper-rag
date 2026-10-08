@@ -282,7 +282,7 @@ Tests cover:
 
 ## Future Improvements
 
-- Multi-document support and document upload
+- Multi-document  support and document upload
 - Streamlit user interface
 - Recall@K, Precision@K, and MRR for retrieval
 - Correctness and faithfulness evaluation for generation
