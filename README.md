@@ -59,19 +59,19 @@ Grounded Answer + Sources
 
 ## Technology Stack
 
-| Category | Technology |
-|---|---|
-| Language | Python |
-| PDF Processing | PyMuPDF |
-| Text Processing | NLTK |
-| Embeddings | Sentence Transformers (`all-MiniLM-L6-v2`) |
-| Vector Search | FAISS |
-| Reranking | Cross-Encoder (`ms-marco-MiniLM-L-6-v2`) |
-| LLM | Google FLAN-T5 (`flan-t5-base`) |
-| API | FastAPI, Uvicorn |
-| Containerization | Docker |
-| Cloud | AWS EC2, AWS ECR |
-| CI/CD | GitHub Actions |
+| Category              | Technology                                    |
+| -------------------   | --------------------------------------------- |                      
+| Language              | Python                                        |
+| PDF Processing        | PyMuPDF                                       |
+| Text Processing       | NLTK                                          |
+| Embeddings            | Sentence Transformers (`all-MiniLM-L6-v2`)    |
+| Vector Search         | FAISS                                         |
+| Reranking             | Cross-Encoder (`ms-marco-MiniLM-L-6-v2`)      |
+| LLM                   | Google FLAN-T5 (`flan-t5-base`)               |
+| API                   | FastAPI, Uvicorn                              |
+| Containerization      | Docker                                        |
+| Cloud                 | AWS EC2, AWS ECR                              |
+| CI/CD                 | GitHub Actions                                |
 
 ## Project Structure
 
@@ -212,10 +212,10 @@ http://localhost:8000/docs
 GitHub -> GitHub Actions -> Docker Build -> Amazon ECR -> Amazon EC2 -> FastAPI + Uvicorn
 ```
 
-| Metric | Value |
-|---|---|
-| EC2 instance type | m7i-flex.large |
-| Docker image size | ~3.3 GB |
+| Metric                | Value           |
+| --------------------- | --------------- |                 
+| EC2 instance type     | m7i-flex.large  |
+| Docker image size     | ~3.3 GB         |
 
 ## CI/CD
 
